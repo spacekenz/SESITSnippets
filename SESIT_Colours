@@ -1,0 +1,4 @@
+def assign_colours(fuel_types):
+    colours_sesit = {'hydro':'blue', 'nuclear':'red', 'coal':'brown', 'NG_CC':'grey', 'NG_SC':'lightgrey', 'diesel':'orange', 'biomass':'darkgreen', 'Wind':'lime', 'solar':'yellow', 'fuel oil':'black'}
+    colors_ordered = [colours_sesit.get(fuel) for fuel in fuel_types]  
+    return(colors_ordered)
